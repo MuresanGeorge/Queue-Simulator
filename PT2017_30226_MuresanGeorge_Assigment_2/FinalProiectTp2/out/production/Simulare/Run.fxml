@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerRun">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="500.0">
+               <children>
+                  <TextField fx:id="timpsosire" layoutX="79.0" layoutY="112.0" promptText="timpsosire" text="1" />
+                  <Label layoutX="157.0" layoutY="14.0" prefHeight="35.0" prefWidth="159.0" text="Simulare Cozi">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font></Label>
+                  <TextField fx:id="timpstatlacasamin" layoutX="79.0" layoutY="159.0" promptText="timpstatlacasamin" text="1" />
+                  <TextField fx:id="nrclienti" layoutX="245.0" layoutY="112.0" promptText="nr clienti" text="7" />
+                  <TextField fx:id="nrcase" layoutX="162.0" layoutY="217.0" promptText="nr case" text="3" />
+                  <TextField fx:id="timpstatlacasamax" layoutX="245.0" layoutY="159.0" promptText="timpstatlacasamax" text="3" />
+                  <Button layoutX="218.0" layoutY="268.0" mnemonicParsing="false" onAction="#metodagettext" text="Run" />
+                  <Label layoutX="78.0" layoutY="92.0" text="Timp de sosire la casa" />
+                  <Label layoutX="296.0" layoutY="92.0" text="Numarul de clienti" />
+                  <Label layoutX="169.0" layoutY="140.0" text="Interval timp asteptare" />
+                  <Label layoutX="203.0" layoutY="197.0" text="Numar case" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
